@@ -273,6 +273,11 @@ footer nav a {
     .mainHeader {
         display: flex;
         flex-direction: column;
+       padding: 20px;
+       align-items: flex-start; 
+       width: 500px;
+       text-align: center;
+       padding-left: 200px;
     }
     .navItems {
         display: flex;
