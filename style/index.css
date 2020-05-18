@@ -76,7 +76,6 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 25px;
-   
 
 }
 
@@ -96,7 +95,6 @@ p {
 .headerImage {
     margin-bottom: 20px;
 }
-
 
 .top-content {
     display: flex;
@@ -269,4 +267,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .mainHeader {
+        display: flex;
+        flex-direction: column;
+    }
+    .navItems {
+        display: flex;
+        flex-direction: column;
+    }
+    .navItems a {
+        padding: 3px;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .headerImage {
+        width: 500px;
+        height: 200px;
+        padding: 20px;
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 75px;
+        text-align: justify;
+    }
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+        justify-content: space-between;
+}
+.middle-content h2 {
+    padding-left: 100px;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.bottom-content .text-container {
+    width: 50%;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+}
+
 }
