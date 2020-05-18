@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+   
+
+}
+
+.navItems a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 35px;
+    align-items: center;
+}
+
+.lambdaLogo {
+    padding-bottom: 25px;
+}
+
+.headerImage {
+    margin-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
