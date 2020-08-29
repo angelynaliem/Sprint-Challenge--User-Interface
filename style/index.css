@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.navItems a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 35px;
+    align-items: center;
+}
+
+.lambdaLogo {
+    padding-bottom: 25px;
+}
+
+.headerImage {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,16 +126,115 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: teal;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .middle-content .boxes .box3 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: cadetblue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box4 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: coral;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box5 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: crimson;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box6 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: forestgreen;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box7 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: darkorchid;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box8 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: hotpink;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box9 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: indigo;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box10 {
+        width: 12.5%;
+        height: 100px;
+        margin: 20px 2.5%;
+        background: dodgerblue;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 .bottom-content {
     display: flex;
@@ -143,4 +267,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .mainHeader {
+        display: flex;
+        flex-direction: column;
+       padding: 20px;
+       align-items: flex-start; 
+       width: 500px;
+       text-align: center;
+       padding-left: 200px;
+    }
+    .navItems {
+        display: flex;
+        flex-direction: column;
+    }
+    .navItems a {
+        padding: 3px;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .headerImage {
+        width: 500px;
+        height: 200px;
+        padding: 20px;
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 75px;
+        text-align: justify;
+    }
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+        justify-content: space-between;
+}
+.middle-content h2 {
+    padding-left: 100px;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.bottom-content .text-container {
+    width: 50%;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+}
+
 }
